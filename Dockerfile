@@ -68,3 +68,4 @@ RUN chmod 777 /entry.sh
 # CMD [ "handler.handler" ]
 ENTRYPOINT [ "/entry.sh" ]
 CMD [ "handler.face_recognition_handler" ]
+ENV MEMORY_LIMIT="4g"
